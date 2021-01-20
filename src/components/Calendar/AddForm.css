@@ -1,0 +1,13 @@
+.modal { 
+    /* opacity: 0.8; */
+    width: 600px;
+    height: 500px;
+    /* margin: auto;
+    position: relative;
+    top: 150px; */
+} 
+
+.addform{
+    position: relative;
+    right: 50px;
+}

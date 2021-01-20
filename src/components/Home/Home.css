@@ -1,0 +1,47 @@
+.countingDays{
+    padding: 70px 10px 150px 10px;
+}
+
+.names{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 40px;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.textinside{
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.homebook{
+    background-image: url(./book.png) !important;
+}
+
+.dayCount{
+    /* border: 3px darkblue dashed; */
+    margin: 0% auto;
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.dayCnt{
+    font-size: 180px !important;
+}
+
+.line_start{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.timeline{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 530px;
+}

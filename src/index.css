@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: url(https://cur.cursors-4u.net/others/oth-5/oth510.ani), url(http://cur.cursors-4u.net/others/oth-5/oth510.png), auto !important;  
+}
+
+
+a:hover{cursor: url(https://cur.cursors-4u.net/others/oth-5/oth510.ani), url(http://cur.cursors-4u.net/others/oth-5/oth510.png), auto !important; }
+
+
+.font_F{
+  font-family: 'Fraunces', serif;
+}
+
+.font_s{
+  font-family: sweet_pineappleregular, serif;
+}
+
+.font_J{
+  font-family: "Just\ Me\ Again\ Down\ Here", serif;
+}
+
+
+@keyframes fadein{
+  from{
+      opacity: 0;
+  }
+  to{ 
+      opacity: 1;
+  }
+}
+
+.fade-in{
+  animation-name:fadein;
+  animation-duration:2s;
+}
+
+
+@keyframes fadeout{
+  from{
+      opacity: 1;
+  }
+  to{ 
+      opacity: 0;
+  }
+}
+
+.fade-out{
+  animation-name:fadeout;
+  animation-duration:2s;
+}

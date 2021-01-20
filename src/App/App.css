@@ -1,0 +1,75 @@
+body{
+    background-image: url(./background/4174806.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+    background-position:center;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.boook{
+    background-image: url(./bok.png);
+    background-size: 100% 100%;
+    padding: 10px 40px;
+    position: relative;
+    top: 30px;
+    height: 680px;
+    width: 1150px;
+    z-index:1;
+    margin: 0px auto;/*div對齊效果*/
+    text-align: center;/*display: inline對齊效果*/
+}
+
+.boookleft{
+    position: absolute;
+    left: 40px;
+    width: 500px;
+}
+
+.boookright{
+    position: absolute;
+    right: 45px;
+    width: 500px;
+    height: 630px;
+    overflow: auto;
+}
+
+.calleft{
+    width: 740px !important;
+}
+
+.calright{
+    width: 310px !important;
+}
+
+.list{
+	position: absolute; 
+    top: 80px; 
+	right: -100px;
+    z-index:2;
+    /* color: cornsilk; */
+}
+
+.buttons {
+	border: none;
+	height: 57px;
+	width: 115px;
+    background-image: url(./bookmark-1.png);
+	background-size: cover;
+	font-size: 25px;
+	font-family: sweet_pineappleregular, serif;
+	text-align: left;
+	border-radius: 0px 10px 10px 0px;
+    padding-left: 6px;
+    color: black;
+    outline: none; /* 外框效果 */
+}
+
+.now{
+    font-weight: 600;
+    color: black !important;
+}
+
+#show{opacity: 1; transition: all 0.5s ease-in;}
+#hide{opacity: 0; transition: all 0.5s ease-in;}

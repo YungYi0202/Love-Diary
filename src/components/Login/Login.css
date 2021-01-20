@@ -1,0 +1,87 @@
+.closedBook{
+    background-image: url(./closedbook-陰影.png);
+    background-size: contain;
+    background-size: 100% 100%;
+    border-radius: 5%;
+    padding: 100px 20px;
+    position: relative;
+    top: 0px;
+    height: 780px;
+    width: 650px;
+    z-index:1;
+    margin: 0px auto;/*div對齊效果*/
+    text-align: center;/*display: inline對齊效果*/
+}
+
+.login_type{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px grey dashed;
+    background-color: rgba(241, 239, 243, 0.288);
+}
+
+.login_title{
+    font-family: sweet_pineappleregular, serif;
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    width: 300px;
+    border: none;
+    background-color: ivory;
+    font-size: 100px;
+    border-radius: 2px;
+    color:rgba(10, 25, 58, 0.568);
+}
+
+.acc_pas{
+    padding: 100px 50px 0px 60px;
+    font-family: "Fraunces", serif;
+    font-size: 23px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.open{
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    height: 80px;
+    line-height: 0px;
+    width: 250px;
+    font-size: 70px;
+    /* text-align: center; */
+    color: rgb(215, 236, 255);
+    font-family: "Just\ Me\ Again\ Down\ Here", serif;
+    background-color: rgba(20, 29, 56, 0.568);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    outline: none;
+}
+
+.open:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.signUpButton{
+    border: none;
+    height: 120px;
+    line-height: 120px;
+    width: 300px;
+    font-size: 30px;
+    font-family: "Just\ Me\ Again\ Down\ Here", serif;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: -50px; 
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    outline: none;
+}
+
+.signUpButton:hover{
+    transform: translateY(-2px);
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}

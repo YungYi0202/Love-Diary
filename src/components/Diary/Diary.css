@@ -1,0 +1,171 @@
+.today{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.today_date{
+    font-weight: 10;
+    position: absolute;
+    top: 65px;
+    left: 160px;
+}
+
+.mood{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+}
+
+.RecordToday{
+    padding: 60px 20px 60px 50px;
+    /* position: relative; */
+    /* margin-left: 40px; */
+    position: relative;
+    top: -10px;
+    left: 35px;
+    height: 410px;
+    width: 480px;
+    background-image: url(./content.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    outline: none; /* 外框效果 */
+    border: none;
+}
+
+.RecordText{
+    position: absolute;
+    left: 95px;
+    top: 230px;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+    margin: 0% auto;
+    border: none;
+    width: 380px;
+    height: 280px;
+    caret-color: #4d8ab3; /* 指定色 */
+    outline: none; /* 外框效果 */
+    font-size: 20px;
+}
+
+.save_button{
+    border-color: rgb(191, 218, 248);
+    border-radius: 10px;
+    background-color: rgba(70, 150, 133, 0.377);
+    width:100px;
+    height:40px;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    left: 25px;
+    top: -15px;
+    outline: none;
+}
+
+.leftbutton{
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    font-size: 25px;
+}
+
+.rightbutton{
+    position: absolute;
+    /* border: 5px black solid; */
+    top: 340px;
+    right: 10px;
+    font-size: 25px;
+    z-index: 10;
+}
+
+/* 
+<< left page
+
+>> right page 
+*/
+.photo{
+    padding: 8px 8px;
+    height: 100%;
+    width: 440px;
+    border: 8px solid transparent;
+    box-sizing:border-box;
+	-moz-box-sizing:border-box; 
+    /* -moz-border-image: -moz-linear-gradient(top left, #3ad0d549 0%, #3a4fd531 100%);
+	-webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%); */
+	border-image: linear-gradient(to bottom right, #0772497c 0%, #3a4fd546 100%);
+	border-image-slice: 1; 
+}
+
+.midd{
+    display: block;
+    margin: 0% auto;
+    margin-top: 100px;
+}
+
+/* 
+.picWall{
+    position: absolute;
+    top: 20px;
+} */
+
+.uploadPhoto{
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    margin: 0% auto;
+    
+}
+
+.input-image{
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    opacity: 0;
+}
+
+.butn{
+    border-color: rgb(191, 218, 248);
+    border-radius: 10px;
+    background-color: rgba(70, 150, 133, 0.377);
+    width:250px;
+    height:40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    outline: none;
+}
+
+.pic_contect_back{
+    padding: 20px 10px 20px 10px;
+    position: absolute;
+    top: 410px;
+    left: 0px;
+    height: 220px;
+    width: 490px;
+    background-image: url(./piccontent.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    outline: none; /* 外框效果 */
+    border: none;
+}
+
+.pic_contect{
+    position: absolute;
+    top: 480px;
+    left: 80px;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+    margin: 0% auto;
+    border: none;
+    height: 90px;
+    width: 350px;
+    caret-color: #4d8ab3; /* 指定色 */
+    outline: none; /* 外框效果 */
+    font-size: 20px;
+}

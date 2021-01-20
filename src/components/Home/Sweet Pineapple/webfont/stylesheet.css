@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'sweet_pineappleregular';
+    src: url('sweetpineapple-webfont.eot');
+    src: url('sweetpineapple-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sweetpineapple-webfont.woff2') format('woff2'),
+         url('sweetpineapple-webfont.woff') format('woff'),
+         url('sweetpineapple-webfont.ttf') format('truetype'),
+         url('sweetpineapple-webfont.svg#sweet_pineappleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
