@@ -30,8 +30,8 @@ const dboptions = {
 }
 // TODO : connect mongodb here
 //const mongoose = require('mongoose')
-console.log("process.env.MONGO_URL"+process.env.MONGO_URL);
-mongoose.connect("mongodb+srv://xena:20001111@calendar.itibj.mongodb.net/calendar?retryWrites=true&w=majority", {
+console.log("process.env.MONGO_URL: "+process.env.MONGO_URL);
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
