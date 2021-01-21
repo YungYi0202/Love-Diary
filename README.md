@@ -1,7 +1,7 @@
 # [109-1] Web Programming Final
 ## (Group 48) Love Diary
 ### Deployment: http://love-diary.anyday.com.tw/ 
-### Demo link : https://drive.google.com/file/d/1HAI9x2spL_o4o9oiTg2vcNukiTdCY5xt/view?usp=sharing
+### Demo link : https://www.youtube.com/watch?v=i9KwDC7gTMs
 
 ### 功能介紹：
   這是一款針對情侶來設計的手帳，有註冊和登入功能。設計成一本書的形式，就像翻頁一樣切換。
@@ -61,5 +61,4 @@ yarn
 http://love-diary.anyday.com.tw/ 
 
 ### Demo link:
-https://drive.google.com/file/d/1HAI9x2spL_o4o9oiTg2vcNukiTdCY5xt/view?usp=sharing
- 
+https://www.youtube.com/watch?v=i9KwDC7gTMs 
