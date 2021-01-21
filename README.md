@@ -37,11 +37,16 @@ yarn
   
   
 ### 使用之第三方套件、框架、程式碼
-* antd
-* fullcalendar
-* imgur(API)
-* RoughNotation
-* fontawesome
+*程式前後端相關:
+• Fullcalendar
+• imgur(API)
+• express
+
+* 網頁美編設計相關:
+• antd
+• RoughNotation
+• Fontawesome
+• Material-UI
 
 ### 補充說明 : 
  因為我們想呈現親手寫手帳的感覺，所以排版方面(例如CSS)，是一步步徹底手刻出來的，沒有套用任何模板或套件。
