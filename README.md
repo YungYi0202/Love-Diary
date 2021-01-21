@@ -37,15 +37,22 @@ yarn
   
   
 ### 使用之第三方套件、框架、程式碼
-*程式前後端相關:
+* 程式前後端相關:
+
 • Fullcalendar
+
 • imgur(API)
+
 • express
 
 * 網頁美編設計相關:
+
 • antd
+
 • RoughNotation
+
 • Fontawesome
+
 • Material-UI
 
 ### 補充說明 : 
