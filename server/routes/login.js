@@ -1,5 +1,7 @@
 import Account from '../models/Account'
 import Event from '../models/Event'
+//const Account = require('../models/Account')
+//const Event = require('../models/Event')
 
 exports.AddAccount = async ( req, res ) =>{
     const repeatAcc = await Account.find({
@@ -55,10 +57,15 @@ exports.AddFirstEvent = async ( req, res ) =>{
 }
 
 exports.ConfirmAccount = async( req, res) => {
+    //console.log("confirm acc");
+    //console.log(req.query);
     const account = await Account.find({
         account: req.query.myAccount,
         password: req.query.pwd
     })
+    //console.log("Account result:");
+    //console.log(account);
+    //console.log(account.length);
     if(account.length===0){
         res.status(200).json({message: 'error', myAcc:null});
     }else{

@@ -7,7 +7,7 @@ import "./Login.css"
 
 import axios from 'axios'
 
-const API_ROOT = 'http://localhost:4000/api'
+const API_ROOT = 'http://love-diary.anyday.com.tw:4000/api'
 const instance = axios.create({
   baseURL: API_ROOT
 })
@@ -41,10 +41,12 @@ function Login({loginSuccess}){
         if(myAccount === "" || myPassword === ""){
             alert("Please enter your Account Name and Password")
         }else{
+            //console.log("handleSubmit");
             const pwd = CryptoJs.MD5(myPassword).toString();           
             const {
                 data: { message, myAcc}
             } = await instance.get('/confirmAccount', {params:{myAccount, pwd}})
+            //console.log("message:" + message);
             if(message==="error"){
                 alert("Your Account Name or Password is wrong!");
             }else{
