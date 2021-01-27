@@ -36,16 +36,6 @@ function AddForm({show, handleClose, addEvent, addTodoEvent}){
     const [todo, setTodo] = useState(false);
     const [fav, setFav] = useState(false);
 
-    // const colorOptions = [
-    //     { label: 'blue', value: 'blue' },
-    //     { label: 'red', value: 'red' },
-    //     { label: 'green', value: 'green' },
-    // ];
-
-    // const color_onChange = e => {
-    //     setColor(e.target.value);
-    // };
-
     const allDay_onChange = e =>{
       setAllDay(e.target.checked);
     };
@@ -172,13 +162,3 @@ function AddForm({show, handleClose, addEvent, addTodoEvent}){
 
 export default AddForm
 
-
-/*
-<Radio.Group
-              options={colorOptions}
-              onChange={color_onChange}
-              value={color}
-              optionType="button"
-              //disabled={todo}
-              />
-*/
