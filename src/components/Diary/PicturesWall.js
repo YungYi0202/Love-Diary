@@ -1,7 +1,8 @@
 import {React, useState, useEffect} from 'react';
 import axios from 'axios'
 import {SyncOutlined } from '@ant-design/icons';
-const API_ROOT = 'http://love-diary.anyday.com.tw:4000/api'
+//const API_ROOT = 'http://love-diary.anyday.com.tw:4000/api'
+const API_ROOT = 'http://localhost:4000/api'
 const instance = axios.create({
   baseURL: API_ROOT
 })

@@ -10,8 +10,8 @@ import { Rate, DatePicker, message} from 'antd';
 import "./Diary.css"
 
 import axios from 'axios'
-
-const API_ROOT = 'http://love-diary.anyday.com.tw:4000/api'
+const API_ROOT = 'http://localhost:4000/api'
+//const API_ROOT = 'http://love-diary.anyday.com.tw:4000/api'
 const instance = axios.create({
   baseURL: API_ROOT
 })

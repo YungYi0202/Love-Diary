@@ -15,12 +15,13 @@
 ### 使用/操作方式 : 
 ``` 
 git clone 暫不公布網址
-cd Love_Diary
+cd Love-Diary
 yarn
 ```
-開啟兩個終端機分別執行`cd Love_Diary & yarn start` 和 `cd Love_Diary & yarn server`
+#### 本地端測試： master branch
+開啟兩個終端機分別執行`cd Love-Diary & yarn start` 和 `cd Love-Diary & yarn server`
 
-(由於deploy時改了相關內容，故git clone後若直接運作可能無法正常執行，需修改code內容)
+#### 網站主機部署： Deployed branch
 
 ### 使用與參考之框架/模組/原始碼
 * antd
